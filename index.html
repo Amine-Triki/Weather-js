@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/logo.webp">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav  class="navbar navbar-expand-lg sticky-top navbar-dark  bg-secondary">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h1>Amine Triki</h1></a>
+          <button class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#main" 
+          aria-controls="main" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#contact"  to="/" class="nav-link  p-2 p-lg-3">Weather</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Projects" class="nav-link  p-2 p-lg-3">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Contact"  class="nav-link  p-2 p-lg-3">Contact Me</a>
+              </li>
+            </ul>
+          
+          </div>
+          
+        </div>
+  </nav>
+
+  <main class="d-flex justify-content-center align-items-center">
+    
+    <div class="card " style="width: 30rem;">
+    
+    <div class="card-body">
+      <h2>Sfax</h2>
+      <h5 class="card-title">{ posts.condition.text }</h5>
+      <p class="card-text">test</p>
+      <a href="#" class="btn btn-primary">test</a>
+    </div>
+    </div>
+  
+</main>
+
+
+
+<article id="Projects" class="text-center pt-5 pb-5 ">
+    <div class="container">
+        <div class="main-title mt-5 mb-5 position-relative">
+            <h2>My Projects</h2>
+            <p>What I build</p>
+        </div>
+        <ul class="switcher bg-secondary d-flex flex-row py-3 justify-content-around px-0 flex-wrap sm:flex-column ">
+            <li class="active" data-cat=".all">All works</li>
+            <li data-cat=".Vue-js">Vue js</li>
+            <li data-cat=".JavaScript">JavaScript</li>
+            <li data-cat=".Wordpress">Wordpress</li>
+        </ul>
+        <div class="gallery text-start">
+            <div class="  gap-5 d-flex justify-content-start flex-wrap" >
+               <div class="post all Vue-js mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/7.webp" class="card-img-top" alt="1.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">site 1</h5>
+                            <p class="card-text">Vue js + tailwind css</p>
+                            <a target="_blank"  href="https://amine-triki.github.io/portfolio-website-responsive-with-sass-js/" class="btn btn-primary">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post all Vue-js mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/6.webp" class="card-img-top" alt="6.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">site 2</h5>
+                            <p class="card-text">Vue js + BOOTSTRAP</p>
+                            <a target="_blank" href="https://amine-triki.github.io/vuejs-bootstrap/" class="btn btn-primary">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post all Wordpress mb-3 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/5.webp" class="card-img-top" alt="5.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">site 3</h5>
+                            <p class="card-text">WORDPRESS</p>
+                            <a target="_blank" href="https://aminetriki.com.tn/" class="btn btn-primary">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post all Wordpress mb-3 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/4.webp" class="card-img-top" alt="4.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">site 4 </h5>
+                            <p class="card-text">WORDPRESS</p>
+                            <a target="_blank" href="https://mjse.com.tn/" class="btn btn-primary">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="post all JavaScript mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/3.webp" class="card-img-top" alt="3.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">site 5</h5>
+                            <p class="card-text">JavaScript + BOOTSTRAP</p>
+                            <a target="_blank" href="https://amine-triki.github.io/portfolio/" class="btn btn-primary">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post all JavaScript mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/2.webp" class="card-img-top" alt="2.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">site 6</h5>
+                            <p class="card-text">JavaScript + BOOTSTRAP</p>
+                            <a target="_blank" href="https://amine-triki.github.io/" class="btn btn-primary">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post all JavaScript mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/1.webp" class="card-img-top" alt="1.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">site 7</h5>
+                            <p class="card-text">SASS + JavaScript</p>
+                            <a target="_blank"  href="https://amine-triki.github.io/portfolio-website-responsive-with-sass-js/" class="btn btn-primary">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<section class=" text-center pt-5 pb-5" id="Contact">
+    <div class="container">
+      <div class="main-title mt-5 mb-5 position-relative">
+        <h2>Contact Me </h2>
+        <p>Get in touch</p>
+      </div>
+      <div id="flex" class="d-flex  justify-content-center ">
+        <div id="touch">
+            <div class="text-start mt-4">
+              <h3 class="text-secondary">
+                  Get in touch 
+              </h3>
+              <p class="mt-4">
+                  If you have any questions or proposals, you can simply write to us.<br> We will answer you as soon as possible.
+              </p>
+          </div>
+          <div class="text-start d-flex justify-content-start align-items-center mt-4">
+            <i class="fa-solid fa-user fa-2x pe-3" style="color: #6C757D;"></i>
+              <div  class="head">
+                  <span><b class="text-secondary">Name :</b></span>
+                  <span>Amine Triki</span>
+              </div>
+          </div>
+          <div class="text-start d-flex justify-content-start align-items-center mt-4">
+            <i class="fa-solid fa-location-dot fa-2x pe-3" style="color: #6C757D;"></i>
+              <div class="head">
+                  <span><b class="text-secondary">Address :</b></span>
+                  <span>Sakiet Ezzit , Sfax , Tunisia</span>
+              </div>
+          </div>
+          <div class="text-start d-flex justify-content-start align-items-center mt-4">
+            <i class="fa-solid fa-envelope fa-2x pe-3" style="color: #6C757D;"></i> 
+              <div  class="head">
+                  <span><b class="text-secondary">Email :</b></span>
+                  <span>Contact@aminetriki.com.tn</span>
+              </div>
+          </div>
+        </div>
+  
+        <form class="container mb-5 text-start mt-4" >
+          <div class="row  mb-4">
+            <div class="col">
+              <label for="first-name">first name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="First name">
+            </div>
+            <div class="col">
+              <label for="last-name">last name</label>
+              <input type="text" class="form-control" id="last-name" placeholder="Last name">
+            </div>
+          </div>
+          <div class="form-group mb-4">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+          <div class="form-group mb-4">
+            <label for="subject">subject </label>
+            <input type="text" class="form-control" id="subject" placeholder="subject">
+          </div>
+          <button type="submit" class="btn btn-secondary mb-4">Send</button>
+        
+        
+        </form>
+  
+      </div>
+    </div>
+  </section>
+
+
+<footer class="footer py-2 bg-secondary ">
+        <p id="Rights" class="container text-center mb-0 py-2 "> </p>
+</footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
