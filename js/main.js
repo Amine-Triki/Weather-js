@@ -1,4 +1,32 @@
-// filter
+// api
+async function get(){
+  const reponse = await fetch("https://api.weatherapi.com/v1/current.json?key=d2fb835a98794ce0814203429230910&q=sfax&aqi=yes")
+  const data = await reponse.json()
+  console.log(data)
+ 
+  //card
+let card = document.querySelector('.card').innerHTML = `
+<div class="card-body">
+  <h3>Sfax <img src="${data.current.condition.icon}" alt="icon"</h3>
+  <h5 class="card-title"> last updated : ${data.current.last_updated} </h5>
+  <p class="card-text">Temperature in °C : ${data.current.feelslike_c}  </p>
+  <p class="card-text">Temperature in °F : ${data.current.feelslike_f}  </p>
+  <p class="card-text">Humidity : ${data.current.humidity}  </p>
+  <p class="card-text">Gust kph : ${data.current.gust_kph}  </p>
+  <p class="card-text">Gust mph : ${data.current.gust_mph}  </p>
+
+  
+</div>
+`;
+
+}
+get()
+
+
+
+
+
+// filter posts
 let switchLis = document.querySelectorAll(".switcher li");
 let posts = Array.from(document.querySelectorAll(" .post"));
 

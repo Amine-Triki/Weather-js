@@ -3,16 +3,22 @@
     margin: 0;
     padding: 0;
 }
-main {
-    min-height: calc(100vh - 136px);
-  }
+/* start card*/
+.card {
+    margin-top: 60px;
+}
+/* end card*/
+
+
   /* start landing*/
   
   
   section .container h3 {
   max-width: 370px;
   }
-  
+  /* end landing*/
+
+
 /* start article*/
 
 .switcher {
