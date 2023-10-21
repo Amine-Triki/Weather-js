@@ -9,8 +9,8 @@ let card = document.querySelector('.card').innerHTML = `
 <div class="card-body">
   <h3>Sfax <img src="${data.current.condition.icon}" alt="icon"</h3>
   <h5 class="card-title"> last updated : ${data.current.last_updated} </h5>
-  <p class="card-text">Temperature in °C : ${data.current.feelslike_c}  </p>
-  <p class="card-text">Temperature in °F : ${data.current.feelslike_f}  </p>
+  <p class="card-text">Temperature in °C : ${data.current.temp_c}  </p>
+  <p class="card-text">Temperature in °F : ${data.current.temp_f}  </p>
   <p class="card-text">Humidity : ${data.current.humidity}  </p>
   <p class="card-text">Gust kph : ${data.current.gust_kph}  </p>
   <p class="card-text">Gust mph : ${data.current.gust_mph}  </p>
