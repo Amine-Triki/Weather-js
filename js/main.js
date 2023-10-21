@@ -7,7 +7,8 @@ async function get(){
   //card
 let card = document.querySelector('.card').innerHTML = `
 <div class="card-body">
-  <h3>Sfax <img src="${data.current.condition.icon}" alt="icon"</h3>
+  <h3>Sfax </h3>
+  <div><img src="${data.current.condition.icon}" alt="icon" <span>${data.current.condition.text}</span></div>
   <h5 class="card-title"> last updated : ${data.current.last_updated} </h5>
   <p class="card-text">Temperature in °C : ${data.current.temp_c}  </p>
   <p class="card-text">Temperature in °F : ${data.current.temp_f}  </p>
